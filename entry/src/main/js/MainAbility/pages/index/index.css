@@ -518,9 +518,6 @@
     margin: 10px;
 }
 
-.carousel-swiper {
-}
-
 .carousel-swiper image {
     border-radius: 10px;
 }
@@ -673,7 +670,7 @@
     border-radius: 100px;
 }
 
-@media (device-type: phone) {
+@media screen and (width: 1080px) {
     .main-control-header-title {
         width: 100px;
     }
@@ -692,7 +689,7 @@
     }
 }
 
-@media (device-type: wearable) {
+@media screen and (width: 720px) {
     .main {
         display: none;
     }
